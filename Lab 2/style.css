@@ -1,49 +1,23 @@
-body {
-    font-family: "Times New Roman", serif;
-    padding: 50px;
-    background-color: white;
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
-    text-align: center;
-    font-size: 36px;
-}
-
-tr{
-    background-color:rgba(0, 0, 255, 0.13);
-
-}
 table {
-    width: 700px;
-    border-collapse: collapse;
-    font-size: 24px;
+    width: 40%;
     margin: auto;
 }
 
-th {
-    background-color: #155f7b;
-    color: white;
-    text-align: left;
-    border: 1px solid gray;
-    padding: 6px 10px;
-}
-
-td {
-    background-color: #dcecf8;
-    border: 1px solid gray;
-    padding: 6px 10px;
-}
 h2 {
     text-align: center;
-    font-size: 36px;
 }
+
 form {
     background-color: rgb(194, 241, 200);
-    border-radius: 45px;
+    border-radius: 22px;
     width: 50%;
     margin: auto;
     height: 350px;
-    width: 650px;
+    width: 550px;
 }
 
 label {
