@@ -12,7 +12,7 @@
                 margin: 22px;
                 border-radius: 22px;
                 font-size: 30px;
-                width: 800px;
+                width: 500px;
                 
     }
 
@@ -32,12 +32,19 @@
         padding: 10px 70px 10px 10px;
     }
 
+    button{
+                padding: 5 15 5 15px;
+        border-radius: 12px;
+
+    }
     .submit{
-        margin: 500px;
+        margin: 0 0 0 190px;
+        background-color: rgb(243, 167, 244);
+
     }
 
     .clear{
-        margin-left: 70px;
+        margin: 0 0 0 10px;
     }
 
 
