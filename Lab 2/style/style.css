@@ -1,0 +1,43 @@
+    legend{
+        background-color: blueviolet;
+        border-radius: 13px;
+        padding: 10px;
+        font-size: 20px;
+        color: azure;
+
+
+    }
+    fieldset{
+        border-color: blueviolet;
+                margin: 22px;
+                border-radius: 22px;
+                font-size: 30px;
+                width: 800px;
+                
+    }
+
+    input{
+        margin: 10px;
+        padding:10px;
+        border-radius:15px;
+        border:1px solid cadetblue;
+
+    }
+
+    label{
+        margin:10px;
+    }
+
+    #date{
+        padding: 10px 70px 10px 10px;
+    }
+
+    .submit{
+        margin: 500px;
+    }
+
+    .clear{
+        margin-left: 70px;
+    }
+
+
