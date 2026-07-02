@@ -73,3 +73,62 @@ button {
     font-size: larger;
     background-color: white;
 }
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn:visited {
+    background-color: blue;
+    color: white;
+}
+.gl:visited{
+    color: orange;
+}
+#sectionZ {
+  text-align: center;
+  color: black;
+}
+
+h1.HeaderSize {
+  font-size: 26px;
+}
+
+h1 {
+  background-color: beige;
+}
+
+.button {
+  margin: 20px 20px 20px 20px;
+  padding: 5px 20px 5px 20px;
+}
+
+#parentContainer {
+  position: relative;
+}
+#child1 {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+#child2 {
+  position: absolute;
+  z-index: 2;
+  right: 60px;
+}
+
+#child3 {
+  position: absolute;
+  z-index: 1;
+  right: 160px;
+}
+#child4 {
+  position: absolute;
+  z-index: 2;
+  right: 280px;
+}
+
+#image {
+  position: absolute;
+  left: -40px;
+  top: -12px;
+}
