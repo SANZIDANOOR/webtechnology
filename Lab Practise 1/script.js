@@ -53,7 +53,7 @@ function validateForm() {
     }
 
     if (!hasunameError && !hasuidError && !hasemailError && !haspassError) {
-        document.getElementById("totalRegitrations").innerHTML = 2;
+        document.getElementById("totalRegitrations").innerHTML = ++totalCount
     }
 
 
