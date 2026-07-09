@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Login Form</h1>
+    <form onsubmit="return validateForm()">
+        <fieldset>
+            <legend>Login Page</legend>
+        <table>
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" id="userName"></td>
+                 <td><p id="unameError" style="font-size: 10px; color:red ; margin: 0px;"></p></td>
+            </tr>
+            <tr>
+                <td>User Id:</td>
+                <td><input type="number" id="userid"></td>
+                <td><p id="uidError" style="font-size: 10px;color: red"></p></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email"></td>
+                <td><p id="emailError" style="font-size: 10px;color: red"></p></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="number" id="password"></td>
+                <td><p id="passError" style="font-size: 10px;color: red"></p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+          
+        </table>
+        
+        </fieldset>
+    </form>
+    <table>
+        <tr>
+            <td>
+                <p>Total Registration:<span id:"totalRegitrations">0</span></p>
+            </td>
+        </tr>
+    </table>
+
+    
+  </body>
+</html>
